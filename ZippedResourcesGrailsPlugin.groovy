@@ -12,8 +12,8 @@ class ZippedResourcesGrailsPlugin {
             "web-app/js/**/*.*"
     ]
 
-    def author = "Marc Palmer"
-    def authorEmail = "marc@grailsrocks.com"
+    def developers = [ [name: "Marc Palmer", email: "marc@grailsrocks.com"] ]
+
     def title = "Zipped Resources"
     def description = '''\\
 GZip encodes static resources using the Resources plugin framework
